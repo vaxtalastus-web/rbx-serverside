@@ -1,7 +1,7 @@
 local vLuau = require(108059886578663)
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
-local BASE_URL = "http://localhost:3000/api" 
+local BASE_URL = "https://rbx-serverside.vercel.app/api" 
 local function sendRequestAsync(endpoint, data)
 	task.spawn(function()
 		pcall(function()
