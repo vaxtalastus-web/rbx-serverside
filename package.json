@@ -1,0 +1,14 @@
+{
+  "name": "rbx-serverside",
+  "version": "1.0.0",
+  "description": "roblox serverside",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "vaxtalastus",
+  "license": "The Unlicense",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
